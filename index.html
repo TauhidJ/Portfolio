@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed Tauhid Husain Jafri | .NET Developer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #0078d7;
+      --background: #0e141b;
+      --card-bg: rgba(255, 255, 255, 0.08);
+      --text: #e4e6eb;
+      --subtext: #b0b3b8;
+      --accent: #00b4ff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 50px;
+      background: linear-gradient(135deg, #00468c, #0078d7);
+      color: white;
+      border-bottom: 4px solid var(--accent);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .section {
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      padding: 25px 30px;
+      margin-bottom: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .section:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-bottom: 15px;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+      padding-bottom: 5px;
+      font-weight: 600;
+    }
+
+    p, li {
+      color: var(--subtext);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 10px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .projects div {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 12px 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      border-left: 4px solid var(--accent);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Smooth fade-in animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="fade-in">Syed Tauhid Husain Jafri</h1>
+    <p class="fade-in" style="animation-delay: 0.2s;">.NET Developer | ASP.NET Core | C# | SQL | Docker | Azure</p>
+  </header>
+
+  <div class="container">
+    <div class="contact-info fade-in" style="animation-delay: 0.4s;">
+      <p><strong>📍 Address:</strong> Bhopal, India</p>
+      <p><strong>📞 Phone:</strong> +91 7000130796</p>
+      <p><strong>📧 Email:</strong> <a href="mailto:tauhidjafri21@gmail.com">tauhidjafri21@gmail.com</a></p>
+    </div>
+
+    <div class="section fade-in" style="animation-delay: 0.5s;">
+      <h2>Objective</h2>
+      <p>To pursue a challenging career and be part of a progressive organization that allows me to enhance my knowledge and utilize my technical skills towards its growth and success.</p>
+    </div>
+
+    <div class="section fade-in" style="animation-delay: 0.6s;">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Software Engineer</strong> — <em>Quasar Digital Solutions</em>, Bhopal <br>
+          <span>Aug 2025 – Present</span><br>
+          Working on enterprise-level web applications using .NET Core, C#, and Web APIs with Azure integration.
+        </li>
+        <li><strong>Software Engineer-1</strong> — <em>Asar Green Pvt Ltd</em>, Bhopal <br>
+          <span>Jun 2023 – Aug 2025</span><br>
+          Worked on .NET Core and Web APIs using C# and Docker, contributing to scalable backend systems.
+        </li>
+        <li><strong>DotNet Developer</strong> — <em>Shreejee Infosolution</em>, Indore <br>
+          <span>Feb 2023 – Jun 2023</span><br>
+          Developed MVC applications using C#, SQL Server, and Razor views.
+        </li>
+        <li><strong>DotNet Developer</strong> — <em>Moreyeahs Company</em>, Indore <br>
+          <span>Jan 2022 – Feb 2023</span><br>
+          Worked on ASP.NET MVC, Web API, and learned Angular-based front-end development.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section projects fade-in" style="animation-delay: 0.7s;">
+      <h2>Projects</h2>
+      <div>
+        <strong>Digisparsh</strong><br>
+        Developed a platform to provide access to medical loans by connecting patients through health aggregators and hospitals.
+      </div>
+      <div>
+        <strong>SellXpert</strong><br>
+        CRM software for real estate businesses to manage customer relationships efficiently.
+      </div>
+      <div>
+        <strong>SPT (Scraper Pickup Trading)</strong><br>
+        Built a platform connecting scrap sellers with vendors for efficient trading.
+      </div>
+    </div>
+
+    <div class="section fade-in" style="animation-delay: 0.8s;">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BE in Electrical and Electronics Engineering</strong> — SISTec (RGPV), 7.37 CGPA (2013–2017)</li>
+        <li><strong>12th Class</strong> — Suman Sorabh School (MP Board), 73.8% (2013)</li>
+        <li><strong>10th Class</strong> — Red Rose School (CBSE), 6.0 CGPA (2010)</li>
+      </ul>
+    </div>
+
+    <div class="section fade-in" style="animation-delay: 0.9s;">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C#, ASP.NET, MVC, JavaScript, HTML, CSS</li>
+        <li><strong>Database:</strong> Microsoft SQL Server</li>
+        <li><strong>Tools & Tech:</strong> .NET Core, Entity Framework, Docker, Kubernetes, Azure</li>
+      </ul>
+    </div>
+
+    <div class="section fade-in" style="animation-delay: 1s;">
+      <h2>Training</h2>
+      <p>Completed six-month training at Maulana Azad National Academy of Skills (Jan 2018 – Jun 2018) in Web Designing and Development, learning HTML, CSS, Bootstrap, and JavaScript.</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Syed Tauhid Husain Jafri — Designed & Developed by Tauhid Jafri
+  </footer>
+</body>
+</html>
