@@ -283,6 +283,17 @@
                 text-align: center;
             }
         }
+        #socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
     </style>
 </head>
 <body>
@@ -307,6 +318,7 @@
                 Currently working at <strong>Quasar Digital Solution</strong> since August 2025.
             </p>
             <button class="hello-btn" onclick="window.location='#contact'">Say Hello!</button>
+            <button class="hello-btn" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
         </div>
     </section>
 
@@ -387,6 +399,20 @@
 
     <section id="contact">
         <h2 class="section-title">Contact Me</h2>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/TauhidJ'"
+          />
+        </div>
         <div class="contact-info">
             <p><strong>Address:</strong> Bhopal, India</p>
             <p><strong>Phone:</strong> <a href="tel:+917000130796">+91 7000130796</a></p>
